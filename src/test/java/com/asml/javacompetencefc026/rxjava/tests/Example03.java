@@ -32,7 +32,7 @@ public class Example03 {
             return number;
         });
         // Still nothing is done
-        numberGenerator.forEach(ele -> {});
+        numberGenerator.subscribe();
         // Now something is done!
     }
 }
